@@ -23,9 +23,9 @@
 
         <sidebar-item
           :link="{
-            name: 'Icons',
+            name: 'CV',
             icon: 'ni ni-planet text-blue',
-            path: '/icons',
+            path: '/CV',
           }"
         />
         <sidebar-item

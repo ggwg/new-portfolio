@@ -101,113 +101,72 @@
                 </div>
               </div>
             </template>
-
-            <form>
-              <h6 class="heading-small text-muted mb-4">User information</h6>
-              <div class="pl-lg-4">
-                <div class="row">
-                  <div class="col-lg-6">
-                    <base-input
-                      alternative=""
-                      label="Username"
-                      placeholder="Username"
-                      input-classes="form-control-alternative"
-                      v-model="model.username"
-                    />
-                  </div>
-                  <div class="col-lg-6">
-                    <base-input
-                      alternative=""
-                      label="Email address"
-                      placeholder="jesse@example.com"
-                      input-classes="form-control-alternative"
-                      v-model="model.email"
-                    />
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-6">
-                    <base-input
-                      alternative=""
-                      label="First name"
-                      placeholder="First name"
-                      input-classes="form-control-alternative"
-                      v-model="model.firstName"
-                    />
-                  </div>
-                  <div class="col-lg-6">
-                    <base-input
-                      alternative=""
-                      label="Last name"
-                      placeholder="Last name"
-                      input-classes="form-control-alternative"
-                      v-model="model.lastName"
-                    />
-                  </div>
-                </div>
+            <div class="row">
+              <div class="col-xl-6 col-lg-12 pb-xl-3">
+                <stats-card
+                  title="Total traffic"
+                  type="gradient-red"
+                  sub-title="350,897"
+                  icon="ni ni-active-40"
+                  class="mb-4 mb-xl-0"
+                >
+                  <template v-slot:footer>
+                    <span class="text-success mr-2">
+                      <i class="fa fa-arrow-up"></i> 3.48%
+                    </span>
+                    <span class="text-nowrap">Since last month</span>
+                  </template>
+                </stats-card>
               </div>
-              <hr class="my-4" />
-              <!-- Address -->
-              <h6 class="heading-small text-muted mb-4">Contact information</h6>
-              <div class="pl-lg-4">
-                <div class="row">
-                  <div class="col-md-12">
-                    <base-input
-                      alternative=""
-                      label="Address"
-                      placeholder="Home Address"
-                      input-classes="form-control-alternative"
-                      v-model="model.address"
-                    />
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-4">
-                    <base-input
-                      alternative=""
-                      label="City"
-                      placeholder="City"
-                      input-classes="form-control-alternative"
-                      v-model="model.city"
-                    />
-                  </div>
-                  <div class="col-lg-4">
-                    <base-input
-                      alternative=""
-                      label="Country"
-                      placeholder="Country"
-                      input-classes="form-control-alternative"
-                      v-model="model.country"
-                    />
-                  </div>
-                  <div class="col-lg-4">
-                    <base-input
-                      alternative=""
-                      label="Postal code"
-                      placeholder="Postal code"
-                      input-classes="form-control-alternative"
-                      v-model="model.zipCode"
-                    />
-                  </div>
-                </div>
+              <div class="col-xl-6 col-lg-12">
+                <stats-card
+                  title="Total traffic"
+                  type="gradient-orange"
+                  sub-title="2,356"
+                  icon="ni ni-chart-pie-35"
+                  class="mb-4 mb-xl-0"
+                >
+                  <template v-slot:footer>
+                    <span class="text-success mr-2">
+                      <i class="fa fa-arrow-up"></i> 12.18%
+                    </span>
+                    <span class="text-nowrap">Since last month</span>
+                  </template>
+                </stats-card>
               </div>
-              <hr class="my-4" />
-              <!-- Description -->
-              <h6 class="heading-small text-muted mb-4">About me</h6>
-              <div class="pl-lg-4">
-                <div class="form-group">
-                  <base-input alternative="" label="About Me">
-                    <textarea
-                      rows="4"
-                      class="form-control form-control-alternative"
-                      placeholder="A few words about you ..."
-                    >
-A beautiful Dashboard for Bootstrap 4. It is Free and Open Source.</textarea
-                    >
-                  </base-input>
-                </div>
+              <div class="col-xl-6 col-lg-12">
+                <stats-card
+                  title="Sales"
+                  type="gradient-green"
+                  sub-title="924"
+                  icon="ni ni-money-coins"
+                  class="mb-4 mb-xl-0"
+                >
+                  <template v-slot:footer>
+                    <span class="text-danger mr-2">
+                      <i class="fa fa-arrow-down"></i> 5.72%
+                    </span>
+                    <span class="text-nowrap">Since last month</span>
+                  </template>
+                </stats-card>
               </div>
-            </form>
+              <div class="col-xl-6 col-lg-12">
+                <stats-card
+                  title="Performance"
+                  type="gradient-info"
+                  sub-title="49,65%"
+                  icon="ni ni-chart-bar-32"
+                  class="mb-4 mb-xl-0"
+                >
+                  <template v-slot:footer>
+                    <span class="text-success mr-2">
+                      <i class="fa fa-arrow-up"></i> 54.8%
+                    </span>
+                    <span class="text-nowrap">Since last month</span>
+                  </template>
+                </stats-card>
+              </div>
+            </div>
           </card>
         </div>
       </div>
