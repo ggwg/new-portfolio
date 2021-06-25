@@ -20,18 +20,22 @@
             <div class="card-header bg-transparent">
               <h1 class="mb-0">Gavin Wu</h1>
               <span>
-                <h3>
+                <h2>
                   gavin.wu19@imperial.ac.uk | github.com/ggwg | London, UK
-                </h3>
+                </h2>
               </span>
             </div>
             <div class="card-body">
               <div class="row px-3">
-                <b>Education</b>
-                <span>
-                  <b style="float: left">Imperial College London</b>
-                  <b style="float: right"> 2019-2022</b>
-                </span>
+                <h2>Education</h2>
+              </div>
+              <div class="row px-3">
+                <h3>Imperial College London &#183; 2019-2023</h3>
+              </div>
+              <div class="row px-3">Computer Science, BEng</div>
+              <div class="row px-3">
+                Modules: Software Engineering Design, Java, C, Algorithm
+                Analysis, Databases, Hardware + Architecture, etc.
               </div>
             </div>
           </div>
