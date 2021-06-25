@@ -13,7 +13,7 @@
               <span class="avatar avatar-sm rounded-circle">
                 <img
                   alt="Image placeholder"
-                  src="img/theme/team-4-800x800.jpg"
+                  src="img/theme/profile_small.jpg"
                 />
               </span>
               <div class="media-body ml-2 d-none d-lg-block">

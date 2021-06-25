@@ -4,13 +4,13 @@
       class="header pb-8 pt-5 pt-lg-8 d-flex align-items-center"
       style="
         min-height: 600px;
-        background-image: url(img/theme/profile-cover.jpg);
+        background-image: url();
         background-size: cover;
         background-position: center top;
       "
     >
       <!-- Mask -->
-      <span class="mask bg-gradient-success opacity-8"></span>
+      <span class="mask bg-dark opacity-8"></span>
       <!-- Header container -->
       <div class="container-fluid d-flex align-items-center">
         <div class="row">
@@ -34,7 +34,7 @@
                 <div class="card-profile-image">
                   <a href="#">
                     <img
-                      src="img/theme/team-4-800x800.jpg"
+                      src="img/theme/profile_small.jpg"
                       class="rounded-circle"
                     />
                   </a>
