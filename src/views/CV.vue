@@ -30,13 +30,140 @@
                 <h2>Education</h2>
               </div>
               <div class="row px-3">
-                <h3>Imperial College London &#183; 2019-2023</h3>
+                <h3>Imperial College London &#183; 2019-2022</h3>
               </div>
               <div class="row px-3">Computer Science, BEng</div>
               <div class="row px-3">
                 Modules: Software Engineering Design, Java, C, Algorithm
                 Analysis, Databases, Hardware + Architecture, etc.
               </div>
+              <br />
+              <div class="row px-3">
+                <h3>Caistor Grammar School &#183; 2012-2019</h3>
+              </div>
+              <div class="row px-3">
+                A-Levels: A*A*A*A*A* - Further Maths, Maths, Physics, Biology,
+                Extended Project
+              </div>
+              <div class="row px-3">GCSEs: 12 A*</div>
+              <hr />
+              <div class="row px-3">
+                <h2>Achievements & Awards</h2>
+              </div>
+              <div class="row px-3">
+                <h3>
+                  <ul>
+                    <li>Imperial College – University Entrance Scholarship</li>
+                    <li>
+                      1st Place – Best University Presentation &#183; 2020
+                      <ul>
+                        <li>
+                          Delivered winning speech on “The Technology Behind
+                          Amazon”
+                        </li>
+                      </ul>
+                    </li>
+                    <li>British Mathematical Olympiad &#183; 2019</li>
+                    <li>
+                      Senior Team Maths Challenge (National Finalist) &#183;
+                      2018
+                    </li>
+                    <li>British Biology Olympiad (Gold Medal) &#183; 2019</li>
+                  </ul>
+                </h3>
+              </div>
+              <hr />
+              <div class="row px-3">
+                <h2>Projects & Experience</h2>
+              </div>
+              <div class="row px-3">
+                <h3>
+                  C Image Steganography & Encryption
+                  <ul class="normal">
+                    <li>
+                      Collaborated with a team of 4 to develop a software
+                      application in C, which can hide files inside the least
+                      significant bits of each image pixel, without the use of
+                      any external libraries.
+                    </li>
+                    <li>
+                      Individually programmed the AES encryption algorithm – A
+                      given password is hashed into an encryption key, which can
+                      then be used to encrypt the binary file data to be encoded
+                      inside the image
+                    </li>
+                  </ul>
+                </h3>
+              </div>
+              <div class="row px-3">
+                <h3>
+                  Fortran Software Licensing – 8 week summer intern
+                  <ul class="normal">
+                    <li>
+                      Designed & developed Windows software using Visual Studio.
+                    </li>
+                    <li>
+                      Produced an in-house software licensing schema for a
+                      turbomachinery consultancy company using Fortran, which
+                      only allows a program to be run on a single computer,
+                      within a limited time period.
+                    </li>
+                    <li>
+                      Analyzed different encryption algorithms to decide on the
+                      best trade-off between performance, difficulty of
+                      implementation and ease of future maintenance.
+                    </li>
+                  </ul>
+                </h3>
+              </div>
+              <div class="row px-3">
+                <h3>
+                  C ARM Assembler • GitHub on request
+                  <ul class="normal">
+                    <li>
+                      Developed a program which converts ARM assembly language
+                      into binary code, written in C.
+                    </li>
+                    <li>
+                      Implemented a two-pass assembly, which stores memory
+                      addresses of labels in the first pass, then converts the
+                      instruction opcode and operand into binary.
+                    </li>
+                    <li>
+                      Gained knowledge of bit-manipulation and a deeper
+                      understanding of low level computer architecture.
+                    </li>
+                  </ul>
+                </h3>
+              </div>
+              <div class="row px-3">
+                <h3>
+                  Imperial College Hackathon – Runners-Up (Newcomer’s Hack)
+                  <ul class="normal">
+                    <li>
+                      Developed short-sightedness prevention app that monitors
+                      proximity of eyes to screen using React Native, in the
+                      UK’s largest student hackathon.
+                    </li>
+                  </ul>
+                </h3>
+              </div>
+              <hr />
+              <div class="row px-3">
+                <h2>Technologies</h2>
+              </div>
+              <div class="row px-3">
+                <h3>Proficient</h3>
+              </div>
+              <div class="row px-3">
+                Python, Java, C, Scala, VueJS, CSS, HTML, Fortran, Git, Linux,
+                Visual Studio (Windows)
+              </div>
+              <br />
+              <div class="row px-3">
+                <h3>Exposed to</h3>
+              </div>
+              <div class="row px-3">Javascript, Haskell, C#</div>
             </div>
           </div>
         </div>
@@ -163,4 +290,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.normal {
+  font-weight: normal;
+}
+</style>

@@ -90,7 +90,7 @@
           <div class="row">
             <div class="col-xl-6 col-lg-12 pb-xl-3">
               <stats-card
-                title="Full-Stack Web App"
+                title="Full Stack Web App"
                 type="gradient-red"
                 sub-title="'Niched' Community Network App"
                 icon="ni ni-active-40"
@@ -101,9 +101,9 @@
                     <i class="fa fa-arrow-up"></i> 3.48%
                   </span>
                   <span
-                    >Reddit for Universities: A student-driven network where
-                    individuals can find and host events with other's who share
-                    the same interest</span
+                    >VueJS, MongoDB, Python FastAPI. A Full-Stack web app for a
+                    student-driven network where individuals can find and host
+                    events with other's who share the same interest</span
                   >
                 </template>
               </stats-card>
