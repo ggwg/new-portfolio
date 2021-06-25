@@ -5,19 +5,6 @@
     :show-toggle-button="false"
     expand
   >
-    <form
-      class="navbar-search navbar-search-dark form-inline mr-3 d-none d-md-flex ml-lg-auto"
-    >
-      <div class="form-group mb-0">
-        <base-input
-          placeholder="Search"
-          class="input-group-alternative"
-          alternative=""
-          addon-right-icon="fas fa-search"
-        >
-        </base-input>
-      </div>
-    </form>
     <ul class="navbar-nav align-items-center d-none d-md-flex">
       <li class="nav-item dropdown">
         <base-dropdown class="nav-link pr-0">
@@ -30,12 +17,12 @@
                 />
               </span>
               <div class="media-body ml-2 d-none d-lg-block">
-                <span class="mb-0 text-sm font-weight-bold">Jessica Jones</span>
+                <span class="mb-0 text-sm font-weight-bold">Gavin Wu</span>
               </div>
             </div>
           </template>
           <div class="dropdown-header noti-title">
-            <h6 class="text-overflow m-0">Welcome!</h6>
+            <h6 class="text-overflow m-0">Welcome V2!</h6>
           </div>
           <router-link to="/profile" class="dropdown-item">
             <i class="ni ni-single-02"></i>

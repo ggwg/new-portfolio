@@ -15,12 +15,11 @@
       <div class="container-fluid d-flex align-items-center">
         <div class="row">
           <div class="col-lg-7 col-md-10">
-            <h1 class="display-2 text-white">Hello Jesse</h1>
+            <h1 class="display-2 text-white">Hi, it's Gavin</h1>
             <p class="text-white mt-0 mb-5">
-              This is your profile page. You can see the progress you've made
-              with your work and manage your projects or assigned tasks
+              Feel free to check out some of my cool projects. Or, keep browsing
+              to see some of the things I like!
             </p>
-            <a href="#!" class="btn btn-info">Edit profile</a>
           </div>
         </div>
       </div>
@@ -46,11 +45,11 @@
               class="card-header text-center border-0 pt-8 pt-md-4 pb-0 pb-md-4"
             >
               <div class="d-flex justify-content-between">
-                <base-button size="sm" type="info" class="mr-4"
-                  >Connect</base-button
+                <base-button size="sm" type="default" class="mr-4"
+                  >My CV</base-button
                 >
-                <base-button size="sm" type="default" class="float-right"
-                  >Message</base-button
+                <base-button size="sm" type="info" class="float-right"
+                  >Contact</base-button
                 >
               </div>
             </div>
@@ -59,43 +58,30 @@
                 <div class="col">
                   <div
                     class="card-profile-stats d-flex justify-content-center mt-md-5"
-                  >
-                    <div>
-                      <span class="heading">22</span>
-                      <span class="description">Friends</span>
-                    </div>
-                    <div>
-                      <span class="heading">10</span>
-                      <span class="description">Photos</span>
-                    </div>
-                    <div>
-                      <span class="heading">89</span>
-                      <span class="description">Comments</span>
-                    </div>
-                  </div>
+                  ></div>
                 </div>
               </div>
               <div class="text-center">
-                <h3>
-                  Jessica Jones<span class="font-weight-light">, 27</span>
-                </h3>
+                <h3>Gavin Wu<span class="font-weight-light">, 19</span></h3>
                 <div class="h5 font-weight-300">
-                  <i class="ni location_pin mr-2"></i>Bucharest, Romania
+                  <i class="ni location_pin mr-2"></i>London, United Kingdom
                 </div>
                 <div class="h5 mt-4">
-                  <i class="ni business_briefcase-24 mr-2"></i>Solution Manager
-                  - Creative Tim Officer
+                  <i class="ni business_briefcase-24 mr-2"></i>Imperial College
+                  London
                 </div>
                 <div>
-                  <i class="ni education_hat mr-2"></i>University of Computer
-                  Science
+                  <i class="ni education_hat mr-2"></i>MEng, Computer Science
+                  (3rd Year)
                 </div>
                 <hr class="my-4" />
                 <p>
-                  Ryan — the name taken by Melbourne-raised, Brooklyn-based Nick
-                  Murphy — writes, performs and records all of his own music.
+                  As an upcoming software engineer, I needed somewhere to
+                  showcase my projects. I'm also trying to keep up to date with
+                  a range of other interests, these include: business,
+                  investing, reading personal development books and I'm also an
+                  art fan.
                 </p>
-                <a href="#">Show more</a>
               </div>
             </div>
           </div>

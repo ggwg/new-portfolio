@@ -15,9 +15,14 @@ import Register from "../views/Register.vue";
 const routes = [
   {
     path: "/",
-    redirect: "/dashboard",
+    redirect: "/profile",
     component: DashboardLayout,
     children: [
+      {
+        path: "/profile",
+        name: "profile",
+        components: { default: Profile },
+      },
       {
         path: "/dashboard",
         name: "dashboard",
@@ -32,11 +37,6 @@ const routes = [
         path: "/maps",
         name: "maps",
         components: { default: Maps },
-      },
-      {
-        path: "/profile",
-        name: "profile",
-        components: { default: Profile },
       },
       {
         path: "/tables",
