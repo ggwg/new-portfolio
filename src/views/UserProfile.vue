@@ -90,9 +90,9 @@
           <div class="row">
             <div class="col-xl-6 col-lg-12 pb-xl-3">
               <stats-card
-                title="Total traffic"
+                title="Full-Stack Web App"
                 type="gradient-red"
-                sub-title="350,897"
+                sub-title="'Niched' Community Network App"
                 icon="ni ni-active-40"
                 class="mb-4 mb-xl-0"
               >
@@ -100,15 +100,19 @@
                   <span class="text-success mr-2">
                     <i class="fa fa-arrow-up"></i> 3.48%
                   </span>
-                  <span class="text-nowrap">Since last month</span>
+                  <span
+                    >Reddit for Universities: A student-driven network where
+                    individuals can find and host events with other's who share
+                    the same interest</span
+                  >
                 </template>
               </stats-card>
             </div>
-            <div class="col-xl-6 col-lg-12">
+            <div class="col-xl-6 col-lg-12 pb-xl-3">
               <stats-card
-                title="Total traffic"
+                title="Full Compiler to Assembly"
                 type="gradient-orange"
-                sub-title="2,356"
+                sub-title="Own Programming Language"
                 icon="ni ni-chart-pie-35"
                 class="mb-4 mb-xl-0"
               >
@@ -116,7 +120,11 @@
                   <span class="text-success mr-2">
                     <i class="fa fa-arrow-up"></i> 12.18%
                   </span>
-                  <span class="text-nowrap">Since last month</span>
+                  <span
+                    >Developed my own programming language complete with
+                    compiler optimisations and high-level features such as
+                    higher-order functions</span
+                  >
                 </template>
               </stats-card>
             </div>
